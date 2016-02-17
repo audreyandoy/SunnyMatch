@@ -1,0 +1,40 @@
+
+
+.board .cards{
+    display: none;
+}
+
+.col-xs-2 {
+  float: left;
+  margin-left: 50px;
+  margin-top: 150px;
+  width:250px;
+}
+
+.col-xs-8 {
+  margin-left: 300px;
+}
+
+#instructions {
+  width: 250px;
+  text-align: center;
+}
+
+.row li {
+    display: inline-block;
+    border-radius: 30px;
+    position: relative;
+}
+
+.card-back {
+    border-radius: 30px;
+}
+.board .row .col li.hidden img.card-back {
+    opacity: 0;
+}
+
+img.card-front {
+    position: absolute;
+}
+
+
